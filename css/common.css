@@ -1,0 +1,869 @@
+body {
+    height:100%;
+    margin:0 auto;
+    width:1350px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.black-over{
+    display: inline-block;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    padding: 0;
+    position: fixed;
+    width: 1350px;
+    height: 100%;
+    z-index: -999999;
+    overflow: hidden;
+    background-color: #000;
+    z-index: 2;
+    opacity: 2;
+}
+.backstretch img, b {
+    top: 0;
+    width:1350px;
+    z-index: -5;
+}
+.backstretch img.bglongform-hide {
+    display:none !important;
+}
+.backstretch img.bglongform-show {
+    display:block !important;
+}
+.backstretch {
+    display: inline-block;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    padding: 0;
+    position: fixed;
+    width: 1350px;
+    height: 100%;
+    z-index: -999999;
+    overflow: hidden;
+}
+
+#nav {
+    background: url("../images/GD_Longform_main_nav_grey_bar.jpg") no-repeat scroll 0 0 transparent;
+    left: 0;
+    list-style: none;
+    overflow: visible;
+    position: fixed;
+    right: 0;
+    width: 1350px;
+    top: 0;
+    z-index: 101;
+    height: 55px;
+    margin: 0 auto;
+}
+#nav li {
+    display: inline-block;
+    padding-top: 3px;
+}
+#nav-lock {
+    margin-top: 15px;
+    position: relative;
+    width: 850px;
+    margin: 15px auto 0;
+    height: 50px;
+}
+.caretakers {
+    padding-left: 9px;
+    font-family: freight-display-pro;
+    float: left;
+    text-decoration:none !important;
+    cursor:pointer;
+}
+#nav .caretakers .ctmain {
+    color: #ffde00;
+    display: inline;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 15px/1.9 "freight-display-pro";
+    text-shadow: 1px 1px 1px #333;
+    padding-left: 15px;
+    border-left: 1px solid #808080;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-right: 8px;
+}
+.navigation {
+    float: right;
+}
+.navigation a {
+    display: block;
+    width: 23px;
+    height: 13px;
+    text-indent: -9999px;
+    background: url("../images/GD_Longform_main_nav_dot_off.png") no-repeat scroll center center transparent;
+}
+.navigation a.active ,.navigation a:hover {
+    background: url("../images/GD_Longform_main_nav_dot_on.png") no-repeat scroll center center transparent;
+}
+.lanswitch {
+    font: 13px jaf-bernino-sans;
+    color: #999999;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
+    cursor: pointer;
+    padding: 0 20px;
+    height: 18px;
+}
+.lanswitch a {
+    background: none;
+    text-indent: 0;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+    display: inline;
+    font: 13px jaf-bernino-sans;
+    color: #999999;
+    padding
+}
+.lanswitch .enlink{
+    padding-right: 10px;
+    border-right: 1px solid #808080;
+}
+.lanswitch a.highlight{
+    color: #be1b42;
+}
+.lanswitch .eslink{
+    padding-left: 10px;
+}
+.lanswitch a:hover{
+    background: none;
+}
+.social-links-down {
+    background: url("../images/GD_Longform_main_nav_share_icon.png") no-repeat scroll center center transparent;
+    width: 31px;
+    height: 18px;
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+}
+#socialdropdown {
+    top: 32px;
+    right: 0px;
+    height: 48px;
+    background: url("../images/social_dropdown_white_container.png") no-repeat 26px 0;
+    position: absolute;
+    width: 143px;
+    display: none;
+    z-index: 10;
+    cursor:pointer;
+}
+.fb_nav {
+    background: url("../images/social-sprite.png") 0 0 no-repeat;
+    height: 21px;
+    margin: 17px 0 0;
+    width: 17px;
+    display: inline-block;
+}
+.fb_nav:hover {
+    background-position:0 -23px;
+}
+.tweet_nav {
+    background: url("../images/social-sprite.png") 0 -49px no-repeat;
+    height: 17px;
+    width: 28px;
+    display: inline-block;
+}
+.tweet_nav:hover {
+    background-position:0 -70px;
+}
+#small-logo {
+    background: url("../images/gdlogo.png") no-repeat 0 0 transparent;
+    height: 25px;
+    width: 122px;
+    float: left;
+    display: block;
+    cursor: pointer;
+    margin-top: 0px;
+}
+/*footer css starts here*/
+
+.footer_bg {
+    background-color:#EDEDED;
+    width:1350px;
+    margin:0 auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.social_share {
+    margin: 0 auto;
+    width: 200px;
+    position: relative;
+    top: -35px;
+    display:block;
+    cursor:pointer;
+}
+.fb_share {
+    background: url('../images/social-sprite.png') 0 -92px no-repeat;
+    width: 72px;
+    height: 66px;
+    display: inline-block;
+    padding-right:18px;
+}
+.fb_share:hover {
+   background-position:0 -168px;
+
+}
+.tweet_share:hover {
+    background-position: 0 -322px;
+}
+
+.tweet_share {
+    background: url('../images/social-sprite.png')  0 -244px no-repeat;
+    width: 80px;
+    height: 66px;
+    display: inline-block;
+}
+
+#readmorefooter{
+
+    position:relative;
+    margin:0 auto;
+    width:850px;
+    height: 340px;
+    border-top:2px dotted #dbdbdb;
+}
+#ctreadmorefooter{
+    font : 16px jaf-bernino-sans;
+    font-weight:bold;
+    color:#2b2b2b;
+    width: 300px;
+    font-weight:bold;
+    padding-top: 39px;
+}
+.ctcontainerfooter img{
+
+    width:166px;
+    height:100px;
+    z-index:10;
+    margin-top:10px;
+}
+
+.ctcontainerfooter{
+    float:left;
+    height:225px;
+    margin-top: 6px;
+    padding-right: 22px;
+    width:166px;
+}
+.cttextfooter{
+    font : 26px/24px freight-display-pro;
+    width: 150px;
+    display: inline-block;
+    margin-top: 12px;
+    text-align:left;
+}
+
+.ctauthorfooter a{
+    font : 15px/26px freight-display-pro;
+    text-align:left;
+    color: #BE1B42;
+    text-decoration:none;
+}
+.ctauthorfooter em {
+    color:#999999;
+    font-weight:500;
+}
+
+.sharedesc {
+    font : 22px jaf-bernino-sans;
+    font-weight:bold;
+    color: #2b2b2b;
+    width: 300px;
+    margin: 0 auto;
+    text-align:center;
+    margin-top: -18px;
+    margin-bottom: 30px;
+}
+.subscribedesc {
+    font : 22px jaf-bernino-sans;
+    font-weight:bold;
+    color: #BE1B42;
+    padding: 10px 0;
+    width: 850px;
+    margin: 0 auto;
+    text-align:center;
+    cursor: pointer;
+    margin: 0 auto;
+    border-top:2px dotted #dbdbdb;
+    border-bottom:2px dotted #dbdbdb;
+}
+.subscribedesc a{
+    color:#BE1B42;
+    text-decoration: none;
+}
+.subscribedesc a:hover{
+    color:#000;
+}
+/*footer css ends here*/
+
+/*sticky header*/
+
+.wrapper {
+    clear: both;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+}
+.social-media-buttons {
+    float: right;
+    margin: 2px 60px 0 0;
+    text-align: right;
+    width: 270px;
+}
+.shell {
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.shell.stuck {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    padding-bottom: 0;
+    height: 55px;
+    text-align: center;
+    top: -900px;
+    overflow: hidden;
+    display:none;
+}
+.site-full {
+    display: inherit;
+}
+.shell .headmatter {
+    border-bottom: 4px solid #000000;
+    height: 165px;
+    width: 100%;
+}
+/*sticky header ends here*/
+
+/*first page starts here*/
+.caretakersleft {
+
+    width:58px;
+    height:28px
+}
+#caretakersright img {
+    margin-bottom:5px;
+}
+.caretaker_title {
+    font:60px freight-display-pro;
+    color: #fff;
+    display: inline;
+
+}
+#firstpage .title {
+    font : 60px freight-display-pro;
+    color: #fff;
+    margin-top: 100px;
+    font-weight:500;
+     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#firstpage .author {
+    font : 19px jaf-bernino-sans;
+    color: #b1cde5;
+    padding-top: 38px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing:1px;
+}
+#firstpage .author_desc {
+
+    font : 19px freight-display-pro;
+    font-style:italic;
+    color: #b1cde5;
+    padding-top:5px;
+    letter-spacing:1px;
+}
+#firstpage .author_name {
+    display: inline;
+    font: 19px jaf-bernino-sans;
+    font-weight: bold;
+}
+
+#golf-digest-logo {
+    margin: 20px auto;
+    position: relative;
+    display: block;
+    top: 80px;
+    width: 594px;
+    padding: 0;
+}
+#golf-digest-logo a {
+    background: none;
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+}
+/*first page ends here*/
+
+/*palmsprings section1*/
+.palmsprings .chucktaylordesc em {
+    font-style:italic;
+}
+
+.entry-content.last {
+    padding-bottom: 68px;
+}
+.entry-content.last p:first-child {
+    text-indent:30px;
+}
+#stillsearching em {
+    color:#ffffff;
+    font: 24px freight-display-pro;
+    font-style:normal;
+}
+#stillsearching span {
+    font:24px freight-display-pro;
+    font-style:normal;
+    color:#ffffff;
+}
+.bglongform{
+    height:100%;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    z-index: -999999;
+}
+#beautifulday em {
+    color:#ffdf00;
+    font-style:italic;
+}
+.beautifulday1 {
+    margin-left:140px;
+}
+#beautifulday span {
+    display:block;
+}
+#firstpage {
+    margin-top:10px;
+    text-align:center;
+    height: auto;
+    clear: both;
+}
+#gd-logo {
+    width: 520px;
+    height: 235px;
+    margin: -11px auto;
+    background:url('../images/GD_Longform_splash_logo.png') 0 0 no-repeat;
+}
+.palmsprings {
+    background-color:white;
+    width:850px;
+    margin:0 auto;
+    overflow:hidden;
+    position:relative;
+    z-index:2;
+}
+.beautyfleetingheadline3 {
+
+    border-bottom:2px dotted #dbdbdb;
+    border-top:2px dotted #dbdbdb;
+    font-family:freight-display-pro;
+    height:202px;
+    position:relative;
+    text-align:left;
+    padding-top:40px;
+    font-size:24px;
+    line-height:34px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.palmspringimage {
+    height:250px;
+    width:250px;
+    float:left;
+    padding-right:41px;
+
+}
+.entry-content{
+    padding: 0 83px;
+}
+
+.chucktaylordesc{
+    font: 22px/32px freight-display-pro;
+    color:#2b2b2b;
+    width: 415px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.chucktaylordesc p{
+    font: 22px/32px freight-display-pro;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.taylorimgdesc {
+    font:15px/21px jaf-bernino-sans;
+    text-align:right;
+    color:#BE1B42;
+    font-weight:bold;
+    margin-top:12px;
+    text-transform:uppercase;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*palmsprings section1 ends*/
+
+/*section 2 starts here*/
+.slideshow_img1 {
+    background:url('../images/GD_Longform_section2_image03.jpg') 0 0 no-repeat;
+    width: 427px;
+    height: 282px;
+    display: block;
+    float: left;
+}
+.slideshow_img2 {
+    background:url('../images/GD_Longform_section2_image04.jpg') 0 0 no-repeat;
+    width: 423px;
+    height: 282px;
+    display: block;
+    float: right;
+}
+
+.slideshow_desc {
+    font: 15px/21px jaf-bernino-sans;
+    font-weight: bold;
+    text-transform:uppercase;
+    display: block;
+    width: 350px;
+    text-align: left;
+    color: #BE1B42;
+    margin-top:15px;
+    margin-right: 72px;
+    float:right;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#section2 em {
+    color:#ffde00;
+    font-style: italic;
+
+}
+
+#section2imgdesc2{
+    position:absolute;
+    width:600px;
+    color:#ffffff;
+    font:56px/56px freight-display-pro;
+    font-weight: 500;
+    margin-top: 750px;
+    text-align: right;
+    margin-left: 380px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#section2ends{
+    position:absolute;
+    background-color:white;
+    height: auto;
+    width:1350px;
+    margin-top:100px;
+    padding-bottom:4px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#section3infographics1 {
+    font: 37px/37px freight-display-pro;
+    color: #2B2B2B;
+    width: 670px;
+    padding: 20px 0px;
+    border-bottom: 2px dotted #DBDBDB;
+    border-top: 2px dotted #DBDBDB;
+    font-weight: 500;
+    margin: 48px 83px 48px 0;
+}
+.align-center{
+    background-position: center 50px !important;
+}
+/*section 2 ends here*/
+
+.jsMovieFrame {
+    background-size: 1350px 100% !important;
+}
+.cttextfooter a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+.beauty-fixed .entry-title {
+    background-color: #fff;
+    padding-top: 174px !important;
+}
+.beauty-fixed .entry-title .beautyisfleeting{
+    position: relative;
+    opacity: 1;
+    z-index: 100;
+}
+.beauty-fixed .entry-title .beautyfleetingheadline{
+    background-color: #fff;
+    z-index: 99;
+    position: relative;
+}
+/*language change*/
+#languagechange{
+    position:fixed;
+    height:80px;
+    width:80px;
+    margin-left:202px;
+    background-color:black;
+    z-index:999999;
+    bottom:0;
+    opacity:0.7;
+    display:none;
+}
+
+#languagechange ul{
+    list-style-type:none;
+}
+
+#languagechange ul li{
+
+    margin:16px;
+}
+/*language change ends*/
+
+/*dialog css starts*/
+#dialog {
+   display:none;
+}
+#dialog .dialog-body,#dialog1 .dialog-body,#dialog2 .dialog-body,#dialog3 .dialog-body{
+    position: relative;
+    height: 443px;
+    overflow: scroll;
+}
+.dialog-body.dialog-resize{
+    height: 100% !important;
+    overflow: hidden !important;
+}
+.ui-dialog {
+    width:592px !important;
+    height: 750px !important;
+    left: 0;
+    outline: 0 none;
+    padding: 0 !important;
+    position: absolute;
+    top: 0;
+
+}
+.ui-dialog .ui-dialog-content {
+    background: none repeat scroll 0 0 transparent;
+    width:450px !important;
+    border-top: 2px dotted #dbdbdb !important;
+    font: 22px/27px freight-display-pro;
+    overflow: hidden;
+    position: relative;
+    padding: 0 !important;
+    margin-left :50px;
+}
+.ui-dialog .ui-dialog-content p:first-child {
+    font:26px/35px freight-display-pro;
+    color:#2b2b2b;
+    margin-top: 18px !important;
+    border-bottom: 2px dotted #dbdbdb !important;
+    padding-bottom: 20px !important;
+}
+
+.ui-dialog .ui-dialog-content span {
+    font:16px jaf-bernino-sans;
+    font-weight:bold;
+    padding-top: 20px;
+    display: block;
+    overflow:hidden !important;
+    text-decoration: none !important;
+}
+.ui-dialog .ui-dialog-content span a {
+    font: 22px/26px freight-display-pro;
+    color: #BE1B42;
+    text-decoration: none;
+    overflow:hidden !important;
+    cursor:pointer;
+}
+.ui-widget-header {
+    background: none !important;
+    margin-left: 40px;
+    margin-top: 30px;
+    border: 0;
+    color: #fff;
+    font-weight: normal;
+}
+.ui-widget-content {
+    background: #ffffff !important;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    padding-top: 17px;
+    padding-left:10px;
+    position: relative;
+    font-size: 1em;
+    border:none;
+}
+.ui-dialog .ui-dialog-title {
+    font:22px jaf-bernino-sans;
+    padding-bottom: 10px;
+    color:#000000;
+    font-weight:bold;
+
+}
+
+.mydialog {
+    position: fixed;
+    z-index: 9999;
+    display: block;
+    top: 70px;
+    left: 206px;
+    background-color: rgb(233, 233, 233);
+    padding: 20px 145px;
+    width: 530px;
+    border: 1px solid rgb(224,224,224);
+    display: none;
+}
+.dialog-body {
+    margin: 0 auto;
+    display: block;
+    background-color: #fff;
+    padding: 50px 90px 30px 50px;
+    -moz-box-shadow: 0px 0px 10px 1px #000;
+    -webkit-box-shadow: 0px 0px 10px 1px #E7E7E7;
+    box-shadow: 0px 0px 10px 1px #E7E7E7;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.dialog-header {
+    border-bottom: 2px dotted #dbdbdb;
+    padding-bottom: 15px;
+    font: bold 22px jaf-bernino-sans;
+    text-transform: uppercase;
+    color:#2b2b2b !important;
+}
+.dialog-body p{
+    margin: 0 !important;
+}
+.dialog-content {
+    margin: 15px 0;
+    font: normal 23px/30px freight-display-pro;
+    color: #2b2b2b;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.download-link a {
+    color: #be1b42;
+    text-decoration: none;
+    font: 22px/26px freight-display-pro;
+    word-break: break-word;
+}
+.close {
+    background: url("../images/overlaycross.png") no-repeat scroll center center transparent;
+    width: 26px;
+    height: 23px;
+    display: block;
+    position: absolute;
+    right: 25px;
+    cursor:pointer;
+}
+.dialog-pointer {
+    color: #BE1B42;
+    cursor: pointer;
+    text-decoration: underline;
+}
+/*dialog css ends*/
+/*section5 starts*/
+.section5_guard em {
+    font: 22px/37px freight-display-pro;
+    color: #999;
+}
+.section5_titlebg {
+    font: 37px/37px freight-display-pro;
+    background-color: #000;
+    opacity: 0.6;
+    width:1350px;
+    height:350px;
+    margin-top: 100px;
+    position: absolute;
+}
+.stair-title {
+    float:right;
+}
+.stair-title1 {
+    float:left;
+}
+#section2 .section2-beauty-headline {
+    font: 32px/32px freight-display-pro;
+    padding: 36px 10px 24px 0px;
+    text-align: left;
+    border-bottom: 2px dotted #dbdbdb;
+    border-top: 2px dotted #dbdbdb;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 390px;
+    float: left;
+    height: 181px;
+}
+#section2 .section2-beauty-image {
+    width: 367px;
+    float: right;
+}
+#section2desc .entry-title {
+    overflow: auto;
+    padding: 80px 0 50px 83px;
+}
+.last-section-img {
+    margin: 47px 83px 0;
+}
+.last-section-img .mora_imgdesc {
+    text-align: right;
+    float: right;
+}
+.last-section-headline {
+    font: 37px/37px freight-display-pro;
+    display: inline-block;
+    padding: 13px 19px 15px 0;
+    margin: 47px 83px 75px;
+    border-top: 2px dotted #DBDBDB;
+    border-bottom: 2px dotted #DBDBDB;
+    color: #2b2b2b;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#section2imgdesc3{
+    position: absolute;
+    width: 700px;
+    color: #ffffff;
+    font: 56px/56px freight-display-pro;
+    font-weight: 500;
+    margin-top: 750px;
+    text-align: right;
+    margin-left: 277px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.GD_Longform_golf_course {
+    padding-top: 30px
+}
+.download-pdf a{
+    color :#000;
+    text-decoration: underline;
+}
+.download-pdf a:hover{
+    color :#be1b42;
+}
+.one-world-break {
+    display: block;
+    text-indent: 0;
+}
