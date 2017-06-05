@@ -1,0 +1,1 @@
+# GolfDigest_longForm
